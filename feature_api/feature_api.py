@@ -15,7 +15,7 @@ class FeatureAPI:
         self.__DATE_FORMAT = DATE_FORMAT
 
     def hello_world():
-        print("Hello world, this is my function working")
+        return print("Hello world, this is my function working")
         
     def get_date_groups(self):
         def _split_dates(s, e):
