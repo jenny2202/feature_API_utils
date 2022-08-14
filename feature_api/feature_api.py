@@ -14,7 +14,7 @@ class FeatureAPI:
         self.__rank_threshold = rank_threshold
         self.__DATE_FORMAT = DATE_FORMAT
 
-    def hello_world():
+    def hello_world(self):
         return print("Hello world, this is my function working")
         
     def get_date_groups(self):
