@@ -13,7 +13,7 @@ LONG_DESCRIPTION = 'A package that allows to extract feature or data through API
 
 # Setting up
 setup(
-    name="phqapi",
+    name="feature_api",
     version=VERSION,
     author="Tony Trinh",
     author_email="<tonytrinh0111@gmail.com>",
