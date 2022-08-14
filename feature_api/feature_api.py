@@ -1,4 +1,4 @@
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 import requests
 
 FEATURES_API_URL = "https://api.predicthq.com/v1/features"
@@ -14,6 +14,9 @@ class FeatureAPI:
         self.__rank_threshold = rank_threshold
         self.__DATE_FORMAT = DATE_FORMAT
 
+    def hello_world():
+        print("Hello world, this is my function working")
+        
     def get_date_groups(self):
         def _split_dates(s, e):
             capacity = timedelta(days=90)
